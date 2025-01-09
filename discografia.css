@@ -1,0 +1,100 @@
+body {
+    font-family:"DM Sans";
+    font-size: 17px;
+    padding: 0px 15px;
+    color: #1F1F1F;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #1F1F1F;
+  }
+  a:visited {
+    color: #1F1F1F;
+  }
+  
+  header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #34b3d8;
+    width: 100%;
+    padding: 10px 0px 0px 0px;
+  }
+  
+  header img {
+    height: 60px;
+    width: 190px;
+  }
+  
+  nav {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10%;
+    padding: 20px;
+    letter-spacing: 1.5px;
+  }
+  
+  nav a {
+    padding: 5px 20px;
+    border-radius: 25px;
+  }
+  
+  nav a:hover {
+    background-color: orange;
+  }
+  
+  #atual {
+    font-weight: bold;
+    color: white;
+    background-color:;
+  }
+  
+  nav.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 0px 20px 0px;
+  }
+  
+  .content a:hover {
+    background-color: #87CEEB;
+  }
+  
+  h1 {
+    font-family:"Abril Fatface";;
+    letter-spacing: 1.5px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 35px;
+  }
+  
+  h2 {
+    font-family: "DM sans";
+    font-size: 25px;
+    margin: 0px;
+  }
+  
+  .album {
+    background-color: #C2C2C2;
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+    padding: 10px 25px;
+    gap: 15px;
+  }
+  
+  .album img {
+    width: 250px;
+  }
+  
+  .album div>p {
+    background-color: white;
+    padding: 20px;
+  }
+  
+  .album a {
+    font-weight: bold;
+  }

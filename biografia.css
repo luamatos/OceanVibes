@@ -1,0 +1,100 @@
+body {
+    font-family:"DM Sans";
+    font-size: 17px;
+    padding: 0px 15px;
+    color: #1F1F1F;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #1F1F1F;
+  }
+  
+  a:visited {
+      color: #1F1F1F;
+  }
+  
+  header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:#34B3D8;
+    width: 100%;
+    padding: 10px 0px 0px 0px;
+  }
+  
+  header img {
+    height: 60px;
+    width: 190px;
+  }
+  nav {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10%;
+    padding: 20px;
+    letter-spacing: 1.5px;
+  }
+  
+  nav a {
+    padding: 5px 20px;
+    border-radius: 25px;
+  }
+  
+  nav a:hover {
+    background-color: #E79A39;
+  }
+  
+  #atual {
+    font-weight: bold;
+    color: white;
+    background-color:;
+  }
+  
+  h1{
+      text-align: center;
+      text-transform: uppercase;
+      font-size: 35px; 
+    }
+  h1, h2 {
+      font-family:"Abril Fatface";
+      letter-spacing: 1.5px;
+  }
+  
+  body {
+      font-family: "DM Sans";
+      font-size: 17px;
+      padding: 0px 20px;
+      color: #1F1F1F;
+  }
+  
+  #a {
+      color:#FF8C00;
+  }
+  
+  h1, h2 {
+      font-family:"Abril Fatface";
+      letter-spacing: 1.5px;
+  }
+  
+  #q {
+    color:green;
+  }
+  #c {
+    color: #191970;}
+  #d {
+    color: #C71585;}
+  
+  .foto{
+    width: ;
+  
+  margin-top: 9px;
+    margin-left: 6%;}  
+  .info{
+    display:flex;
+     flex-wrap: wrap;
+   Align-items: center;
+  
+  }
+  
